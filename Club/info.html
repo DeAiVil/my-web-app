@@ -2,21 +2,221 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <title>VR Club</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="parallax"></div>
+    <section class="video-section">
+        <!-- Видеофон 1 (заменено на YouTube iframe) -->
+        <iframe class="video-bg" src="https://www.youtube.com/embed/ibNrPjETR_k?autoplay=1&loop=1&playlist=ibNrPjETR_k&t=20&mute=1&playsinline=1&controls=0&showinfo=0&autohide=1&allowfullscreen=true&mode=transparent" frameborder="0"></iframe>
 
-    <div class="content">
-        <h1>Погрузитесь в VR!</h1>
-        <p>Насладитесь лучшими VR-играми с эффектом присутствия.</p>
-        <button onclick="closeWebApp()">Закрыть</button>
+        <div class="overlay">
+            <div class="header">
+                <h1 class="header-title">VR CLUB UNREALPLACE_BREST</h1>
+                <span class="header-contacts">CONTACTS</span>
+            </div>
+
+            <div class="container">
+                <!-- Левый блок с текстом и кнопками -->
+                <div class="left-content">
+                    <h1 class="hero-title">Discover new worlds in VR with us!</h1>
+                </div>
+                
+                <div class="btn-container">
+                    <button class="btn">Забронировать</button>
+                    <button class="btn">Подбор игр</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="black-section">
+        <button class="main-button">Цены</button>
+    </section>
+
+    <div class="buttons-container">
+        <button class="toggle-button">Время</button>
+        <button class="toggle-button">Будние дни</button>
+        <button class="toggle-button">Выходные и праздники</button>
     </div>
 
-    <script src="script.js"></script>
+    <div class="prices-container">
+        <div class="price-block">
+            <p>15 минут</p>
+            <p>30 минут</p>
+            <p>45 минут</p>
+            <p>1 час</p>
+        </div>
+        <div class="price-block">
+            <p>10 рублей</p>
+            <p>15 рублей</p>
+            <p>20 рублей</p>
+            <p>25 рублей</p>
+        </div>
+        <div class="price-block">
+            <p>15 рублей</p>
+            <p>20 рублей</p>
+            <p>25 рублей</p>
+            <p>30 рублей</p>
+        </div>
+    </div>
 
+    <div class="price-line">
+        <p>Цена указана за 1 игрока</p>
+    </div>
+
+    <button class="club-rental-button">Аренда клуба (4 шлема)</button>
+
+    <div class="buttons-container">
+        <button class="toggle-button">Время</button>
+        <button class="toggle-button">Будние дни</button>
+        <button class="toggle-button">Выходные и праздники</button>
+    </div>
+
+    <div class="prices-container">
+        <div class="price-block">
+            <p>1 час</p>
+            <p>1 час 30 минут</p>
+            <p>2 часа</p>
+            <p>2 часа и 30 минут</p>
+            <p>3 часа</p>
+            <p>3 часа и 30 минут</p>
+            <p>4 часа</p>
+        </div>
+        <div class="price-block">
+            <p>80 рублей</p>
+            <p>120 рублей</p>
+            <p>140 рублей</p>
+            <p>175 рублей</p>
+            <p>195 рублей</p>
+            <p>227 рублей</p>
+            <p>240 рублей</p>
+        </div>
+        <div class="price-block">
+            <p>90 рублей</p>
+            <p>135 рублей</p>
+            <p>160 рублей</p>
+            <p>200 рублей</p>
+            <p>225 рублей</p>
+            <p>262 рублей</p>
+            <p>280 рублей</p>
+        </div>
+    </div>
+
+    <section class="video-section">
+        <!-- Видеофон 2 (заменено на YouTube iframe) -->
+        <iframe class="video-bg" src="https://www.youtube.com/embed/F-px_Eqr16E?si=rZKoY5hFodMNtV9E&autoplay=1&loop=1&playlist=F-px_Eqr16E&mute=1&playsinline=1&controls=0&showinfo=0&autohide=1&allowfullscreen=true" frameborder="0"></iframe>
+
+        <div class="overlay">
+            <div class="games">
+                <h2>Библиотека игр</h2>
+                <p>В нашей коллекции более 100 игр! Используя современные технологии виртуальной реальности, дети и взрослые смогут погрузиться в захватывающие миры и попробовать себя в роли героев боевиков. Исследуйте неизведанные вселенные, сражайтесь с врагами или создавайте свой собственный мир, где вы будете богами! Наслаждайтесь уникальным игровым опытом с нашими играми для всех возрастов.</p>
+                <button class="btn">Смотреть каталог</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="helmets-section">
+        <h2>Наши шлемы</h2>
+        <p>Лучшее VR-оборудование в нашем клубе</p>
+        <div class="helmets-container">
+            <div class="helmet">
+                <img src="https://i.postimg.cc/3JMfk7S7/photo-2025-03-24-20-38-55.jpg" alt="Шлем 1">
+                <p class="description">
+                    <span class="helmet-name"> Oculus Quest 3 </span><br>
+                    Улучшенная версия с расширенным полем зрения, высокой производительностью и поддержкой смешанной реальности.
+                </p>
+                <div class="specifications">
+                    <p><strong>Характеристики:</strong></p>
+                    <ul>
+                        <li>Разрешение: 4128×2208 (2064×2208 на глаз)</li>
+                        <li>Частота обновления: 90/120 Гц</li>
+                        <li>Угол обзора: ~100°</li>
+                        <li>Отслеживание: встроенные камеры (Inside-out)</li>
+                        <li>Подключение: автономный / проводной (Link)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="helmet">
+                <img src="https://i.postimg.cc/y88mdbHs/photo-2025-03-24-20-45-45.jpg" alt="Шлем 2">
+                <p class="description">
+                    <span class="helmet-name"> Oculus Quest 2 </span><br>
+                    Автономный и удобный шлем с качественной графикой и возможностью работы без проводов.
+                </p>
+                <div class="specifications">
+                    <p><strong>Характеристики:</strong></p>
+                    <ul>
+                        <li>Разрешение: 3664×1920 (1832×1920 на глаз)</li>
+                        <li>Частота обновления: 90/120 Гц</li>
+                        <li>Угол обзора: ~100°</li>
+                        <li>Отслеживание: встроенные камеры (Inside-out)</li>
+                        <li>Подключение: автономный / проводной (Link)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="helmet">
+                <img src="https://i.postimg.cc/FFxkLVGR/photo-2025-03-24-20-39-01.jpg" alt="Шлем 3">
+                <p class="description">
+                    <span class="helmet-name"> Oculus Quest 3S </span><br>
+                    Топовая модель с передовыми технологиями, улучшенной эргономикой и еще более реалистичным VR-опытом.
+                </p>
+                <div class="specifications">
+                    <p><strong>Характеристики:</strong></p>
+                    <ul>
+                        <li>Разрешение: выше 4128×2208</li>
+                        <li>Частота обновления: 90/120 Гц</li>
+                        <li>Угол обзора: ~110–120°</li>
+                        <li>Отслеживание: встроенные камеры (Inside-out)</li>
+                        <li>Подключение: автономный / проводной (Link)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="helmet">
+                <img src="https://i.postimg.cc/5yt4vLNY/photo-2025-03-24-20-39-06.jpg" alt="Шлем 4">
+                <p class="description">
+                    <span class="helmet-name">HTC Vive Pro</span><br>
+                    Премиальный шлем с высоким разрешением и точным отслеживанием движений для полного погружения в виртуальный мир.
+                </p>
+                <div class="specifications">
+                    <p><strong>Характеристики:</strong></p>
+                    <ul>
+                        <li>Разрешение: 2880×1600 (1440×1600 на глаз)</li>
+                        <li>Частота обновления: 90 Гц</li>
+                        <li>Угол обзора: 110°</li>
+                        <li>Отслеживание: внешние базовые станции (SteamVR)</li>
+                        <li>Подключение: проводное</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="wrapper">
+                <section class="contacts">
+                    <h2>Контакты</h2>
+                    <div class="contacts-container">
+                        <div class="contact-info">
+                            <p><strong>Адрес:</strong> Город Брест,улица Махновича ,6 </p>
+                            <p>ТЦ "Варшавский" </p>
+                            <p><strong>Телефон:</strong> +375 33 620 25 54</p>
+                            <p><strong>Instagram:</strong>unrealplace_brest</p>
+                        </div>
+                        <div class="map-container">
+                            <iframe src="https://yandex.by/map-widget/v1/?ll=23.706693%2C52.073006&mode=search&oid=2392844120&ol=biz&sll=23.706693%2C52.073006&sspn=0.021629%2C0.007815&text=%D0%B2%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%86&z=16"
+                                    width="100%" height="300" frameborder="0" allowfullscreen="true"></iframe>
+                        </div>
+                    </div>
+                </section>
+            
+                <footer>
+                    <p>© 2025 VR Club</p>
+                </footer>
+            </div>
+            
+
+    <script src="script.js"></script>
 </body>
 </html>
