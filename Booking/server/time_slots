@@ -1,0 +1,7 @@
+CREATE TABLE time_slots (
+    id SERIAL PRIMARY KEY,
+    date DATE NOT NULL,
+    time TIME NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    is_available BOOLEAN DEFAULT TRUE
+);
